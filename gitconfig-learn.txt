@@ -33,6 +33,7 @@ git remote
 git remote -v  //查看当前仓库的远程仓库信息
 git remote add name remote_location  //添加一个远程仓库到本地
 git fetch name //从远程仓库中取出内容到本地仓库
-git rm name //删除一个远程仓库
+git remote rm name //删除一个远程仓库
 git push remote_name master  //提交到远程仓库remote_name
+git clone repo_location   //克隆远程目录内容
 
