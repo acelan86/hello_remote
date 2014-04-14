@@ -30,5 +30,9 @@ git log -p -2 //列出最近两次提交记录及详细diff信息
 
 ## 远程
 git remote 
-git remote -v
+git remote -v  //查看当前仓库的远程仓库信息
+git remote add name remote_location  //添加一个远程仓库到本地
+git fetch name //从远程仓库中取出内容到本地仓库
+git rm name //删除一个远程仓库
+git push //提交到远程仓库
 
