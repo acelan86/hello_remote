@@ -12,4 +12,8 @@ git config user.name                       //列出user.name的配置值
 
 git init
 git add
-git commit -m "commint info" 
+git commit -m "commint info"
+
+git status
+git diff  //修改文件和暂存之间的差异，未被trace的文件不会被diff
+ 
