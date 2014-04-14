@@ -13,6 +13,7 @@ git config user.name                       //列出user.name的配置值
 git init
 git add
 git commit -m "commint info"
+git commit -a -m "skip staged for commit"  //跳过暂存提交，不用使用git add 后再git commit
 
 git status
 git diff  //修改文件和暂存之间的差异，未被trace的文件不会被diff
