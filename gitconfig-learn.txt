@@ -24,4 +24,11 @@ git rm --cached    //想把仓库文件删除但不移除工作目录文件，�
 
 git mv  //改名，移动文件
 
- 
+git log  
+git log -p -2 //列出最近两次提交记录及详细diff信息 
+
+
+## 远程
+git remote 
+git remote -v
+
