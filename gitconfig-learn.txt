@@ -1,7 +1,7 @@
-1. git分为工作目录，暂存目录，本地仓库
-2. 本地仓库 --git clone --> 工作目录
-   工作目录 --edit file --> 暂存目录
-   暂存目录 --commit    --> 本地仓库
+1. git分为工作目录(working)，暂存目录(stage)，本地仓库(git repo)
+2. 本地仓库 -- git clone --> 工作目录
+   工作目录 -- edit file -- git add --> 暂存目录
+   暂存目录 -- git commit --> 本地仓库
 
 
 git config --system user.name "acelan86"   //modifile in /etc/gitconfig
