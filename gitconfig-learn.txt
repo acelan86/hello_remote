@@ -20,4 +20,8 @@ git diff  //修改文件和暂存之间的差异，未被trace的文件不会被
 
 git rm  //删除文件
 git rm -f
-git rm --cached    //想把仓库文件删除但不移除工作目录文件，比如某些文件错误加入了提交列表，需要移除truce且重新设置成ignore 
+git rm --cached    //想把仓库文件删除但不移除工作目录文件，比如某些文件错误加入了提交列表，需要移除truce且重新设置成ignore
+
+git mv  //改名，移动文件
+
+ 
