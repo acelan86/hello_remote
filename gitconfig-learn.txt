@@ -1,0 +1,15 @@
+1. git分为工作目录，暂存目录，本地仓库
+2. 本地仓库 --git clone --> 工作目录
+   工作目录 --edit file --> 暂存目录
+   暂存目录 --commit    --> 本地仓库
+
+
+git config --system user.name "acelan86"   //modifile in /etc/gitconfig
+git config --global user.name "acelan86"   //modifile in ~/gitconfig
+git config user.name "acelan86"            //modifile in .git/gitconfig
+git config --list                          //列出所有的配置项，可能有重复的内容，使用最后一个配置项，类似css
+git config user.name                       //列出user.name的配置值
+
+git init
+git add
+git commit -m "commint info" 
