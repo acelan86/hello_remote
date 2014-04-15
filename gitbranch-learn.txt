@@ -4,8 +4,15 @@ git checkout -b branch_name //相当于上面两句，新建分支并切换到�
 git branch -d branch_name //删除分支
 git branch //查看分支信息
 git branch -v
-git branch --merged
+git branch --merged //查看已经合并到当前分支的分支
+git branck --no-merged //查看当前没有被merged到当前分支的分支
 
 git meger branch_name //将branch_name分支合并到当前分支
+
+## 分支通用命名规范
+master：主干稳定的发布分支
+develop：开发分支
+topic：某个特性分支
+proposed：建议使用的分支，但尚未稳定发布 or pu（proposed update）分支
 
 
