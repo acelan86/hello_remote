@@ -1,0 +1,11 @@
+git branch branch_name //建立分支
+git checkout branch_name //切换分支
+git checkout -b branch_name //相当于上面两句，新建分支并切换到这个分支上
+git branch -d branch_name //删除分支
+git branch //查看分支信息
+git branch -v
+git branch --merged
+
+git meger branch_name //将branch_name分支合并到当前分支
+
+
